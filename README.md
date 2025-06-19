@@ -1,1 +1,1 @@
-# GetsFit-GYM-Website
+"Get Fit's" is a state-of-the-art web-based mini project designed to centralize and streamline gym-related information for fitness enthusiasts. The platform provides real-time updates on gym schedules, trainer availability, and class timetables, empowering users to plan their fitness routines effectively. Additionally, it offers a user-friendly dashboard for tracking personal fitness progress, setting goals, and accessing customized workout plans.
