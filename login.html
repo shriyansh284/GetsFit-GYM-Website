@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo">
+            <h1>GetFit's</h1>
+        </div>
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username" required id="user">
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" required id="pas">
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="remember-forget">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#">Forget Password</a>
+                <input type="button" class="btn" value="LOGIN" onclick="func()"/>
+                <div class="register-link">
+                    <p>Don't have an Account?
+                    <a href="registration.html">Register</a></p>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script>
+        function func(){
+        var email = document.getElementById("user").value;
+        var pass = document.getElementById("pas").value;
+        if (email== 'shriyanshbansal@gmail.com' && pass == '12345'){
+            alert("sucess full !!");
+            window.location.assign("./gym.html");
+        }
+        else{
+            alert("Invalid !!");
+            return;
+        }
+        }
+    </script>
+</body>
+</html>
